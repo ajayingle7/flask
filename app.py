@@ -16,7 +16,13 @@ def contact():
 def about():
     return "about page"
 
+@app.route("/blogs")
+def blog():
+    return "blog page"
 
 
 if __name__=="__main__":
     app.run(debug=True)
+    print("helllooooooo00000ooooooo")
+
+
